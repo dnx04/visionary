@@ -33,11 +33,11 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # Thư mục output của Astro
+          path: ./dist
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: build   # 🔹 chạy sau khi job build hoàn thành
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
