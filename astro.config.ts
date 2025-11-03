@@ -20,7 +20,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   site: 'https://dnx04.github.io',
-  base: '/visionary',
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],
