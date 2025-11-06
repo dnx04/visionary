@@ -75,3 +75,26 @@
     @apply border-border outline-ring/50 tracking-tight;
   }
 }
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/static/wallpaper-1.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  z-index: -1;
+  background-color: oklch(var(--background));
+}
+
+[data-theme='dark'] body::before {
+  opacity: 0.25;
+}
