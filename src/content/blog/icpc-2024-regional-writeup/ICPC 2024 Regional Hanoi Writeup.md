@@ -1,5 +1,6 @@
 ---
 title: ICPC 2024 Regional Hanoi Writeup
+description: Lời giải các bài trong đề Regional ICPC 2024
 tags:
   - competitive-programming
 date: 2025-07-11
