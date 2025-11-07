@@ -1,370 +1,267 @@
 ---
-title: ICPC 2024 Regional Hanoi Writeup
-description: Lời giải các bài trong đề Regional ICPC 2024
 tags:
-  - competitive-programming
-date: 2025-07-11
-modified: 2025-11-07
-author: dnx04
+  - tweaking
+  - lenovo-y700
+  - android
 share: "true"
-icon: fontawesome-solid:code
-color: "#22c55e"
-image: Evergreen/ICPC Journey/assets/icpc-2024-banner.png
+title: Lenovo Legion Y700 Gen 3 (2025) Review & Tweaking
+description: Tất cả những gì về Y700 mà mình biết.
+created: Friday, July 18th 2025, 3:49:10 pm
+date: 2025-07-18
+modified: 2025-11-07
 ---
-Đây là một trong những kì thi để đời của mình và anh em trong đội, khi đã vượt mọi kì vọng và được đến quốc đảo Singapore đánh APAC Championship tại NUS. Sau khi quá lâu vẫn không thấy BTC công khai lời giải tất cả các bài ở nguồn nào, mình quyết định viết 1 cái writeup, cũng là để tưởng nhớ và kỉ niệm chiến thắng hào hùng sau bao cố gắng. 
+Chục năm về trước khi iPad 2 về Việt Nam, nhà mình cũng có 1 cái. Cho đến giờ nó vẫn chạy iOS 9 và dùng tốt cho mấy tác vụ đơn giản. Hồi đó mình cũng thử làm mấy thứ vui vui như jailbreak máy, cài Cydia, cài tool này tool nọ để hack game mua đồ free. Giờ thì jailbreak không còn mấy giá trị, và cũng quá khó để làm. Trong trò chơi mèo vờn chuột này thì Apple đã dành chiến thắng.
 
-# [A: Approaching Hurricane](https://oj.vnoi.info/problem/icpc24_regional_a)
+Mình có sử dụng iPhone, và cũng chỉ cần một thiết bị nhà Táo là đủ rồi. Máy tính thì dùng Windows, vậy thì tablet sắm Android nữa là đủ bộ. Bữa nọ mình có sắm một chiếc Y700 Gen 3 nội địa Trung hàng thợ về để dùng, chơi game và nghịch. Hàng thợ, hàng keng xách tay thì rẻ hơn và cũng như mới cứng (cắm sạc chưa đến 10 lần).
 
-## Đề bài
+Khi mình đang rảnh thời gian, ngồi lại với thú vui con trẻ vọc vạch cũng thấy khá vui. Cũng là lần đầu tiên dạo chơi Android Tweaking trong thời kì mới, lần đầu tiên mua hàng thợ, hàng keng và biết về thị trường buôn bán đồ điện tử xách tay Trung Quốc tấp nập ở Việt Nam với cái tên được nhắc đến nhiều nhất là Xiaomi.
 
-Có một hòn đảo có thể biểu diễn thành một đa giác $n$ đỉnh bất kì không tự cắt, với toạ độ các điểm nguyên. Có $q$ truy vấn, mỗi truy vấn gồm 6 số $x_s, y_s, r_s, x_t, y_t, r_t$ biểu diễn một cơn bão, là một hình tròn có tâm $(x_s, y_s)$ và tâm này sẽ di chuyển theo đường thẳng đến $(x_t, y_t)$ , và trong quá trình di chuyển đó, bán kính của nó sẽ thay đổi đều liên tục từ $r_s$ đến $r_t$.
+# Tổng quan
 
-Với mỗi truy vấn, tính phần diện tích của đảo bị cơn bão quét qua, với sai số tuyệt đối hoặc tương đối không quá $10^{-6}$.
+Con Y700 2025 này ra mắt vào cuối năm 2024, tháng 6 vừa rồi có giá khoảng 9 triệu nếu bạn mua hàng thợ, còn mua nguyên seal bản quốc tế thì sẽ đắt hơn nhiều. Dự là sau vài tháng giá sẽ mềm hơn khoảng 5-10%, nhất là khi Gen 4 của con Y700 này cũng vừa ra mắt tầm tháng 6/2025. Giờ bạn mua hàng second hand của một ai đó rao bán trên Facebook, Chợ Tốt thì giá cũng khoảng đâu đó 8 triệu thôi. Combo máy + bao da + bút mình mua tháng trước là khoảng 9.8 triệu tại shop thợ Hiển Xiaomi.
 
-Giới hạn: $n \le 3 \times 10^5, n \times q \le 10^6, |x_i|, |y_i| \le 5000, 1 \le r_s, r_t \le 100$.
+![y700.jpg](srccontentbloglenovo-legion-y700-gen-3assetsy700.jpg)
 
-## Lời giải
+## Thiết kế và cấu hình
 
-Một kinh nghiệm thi cử là bài hình sẽ luôn là bài làm sau cùng, hoặc bỏ luôn không nghĩ đến. Hay nói cách khác, cách tốt nhất để làm bài hình là bỏ. Không có đội nào làm được bài này trong kì thi. Tuy nhiên thì khi mình rảnh về thời gian thì có thể làm được hết. Làm xong rồi thì khẳng định được rằng bỏ là đúng, và trong ICPC chẳng có giới hạn kiến thức nên là chuẩn bị hình bao nhiêu cũng là không đủ. Hình là dạng bài khiến ta ảo tưởng nhiều nhất về những gì có thể làm được.
+**Về thiết kế:** Máy khá tối giản, mỏng nhẹ, màn hình bé 8.8 inch 144Hz, cầm vừa tay, đảm bảo cho bạn chơi được game MOBA, TFT hay bắn PUBG Mobile đều sẽ thuận tay. Loa Dolby Atmos có trải nghiệm âm thanh chơi game và nghe nhạc khá tốt, nhất là khi bạn chơi game FPS. Còn về camera, vì đây là tablet chơi game hiệu năng cao, bình thường cầm cái tablet đi chụp ảnh nó rất cồng kềnh, thà rằng bạn mua iPhone hoặc điện thoại Android có camera xịn mà chụp còn ngon hơn, cam của Y700 chỉ đủ dùng thôi.
 
-Một thuật toán hình quan trọng sử dụng trong bài toán này là thuật toán cắt đa giác bằng đa giác lồi của Sutherland-Hodgman. Nôm na thì đây là thuật toán cho phép tính phần giao của một đa giác bất kì không tự cắt (chính là đa giác của đề bài cho, sau đây sẽ gọi là `poly`) với một đa giác lồi nào đó (sau đây sẽ gọi là `clipper`).
+**Về cấu hình:** 16GB + 9GB RAM và khoảng 500GB dung lượng, kèm với Snap 8 Gen 3 và Adreno là quá thừa để chiến max settings 60FPS những con game nặng như mấy con game của Hoyoverse hay Wuthering Waves. Thêm cả Kali NetHunter, mấy phần mềm giả lập, thậm chí up hết ảnh, phim của bạn vào thì cũng chưa dùng hết 80% dung lượng. Bản 12GB RAM + 256 GB dung lượng rẻ hơn khoảng 10%. Thậm chí các pháp sư Trung Hoa đã cài được cả Black Myth: Wukong để chơi trên tablet rồi (khoảng 30FPS và còn stuttering).
 
-[Sutherland–Hodgman algorithm](https://en.wikipedia.org/wiki/Sutherland%E2%80%93Hodgman_algorithm)
+## Về hệ điều hành – ROM
 
-Chúng ta chia bài toán thành 2 trường hợp lớn, tuỳ vào số tiếp tuyến chung ngoài của 2 hình tròn được cho trong đề bài.
+![y700rom.png](srccontentbloglenovo-legion-y700-gen-3assetsy700rom.png)
 
-## Trường hợp 1: 0 hoặc 1 tiếp tuyến
+Mình đã dùng cả hai loại ROM là ROM Trung (sau đây gọi là CN) và ROM Quốc tế (sau đây gọi là ROW - Rest Of World). Đối với các bạn chơi tablet Tàu thì đây là 2 khái niệm quan trọng mà các bạn cần nắm được. Dưới đây là nhận xét chung của mình, khi mới chỉ sửa chút ít, chứ chưa can thiệp sâu vào máy.
 
-Trường hợp này xảy ra khi và chỉ khi một hình tròn hoàn toàn nằm trong hình tròn còn lại. Khi này đáp án là diện tích phần giao của đa giác với hình tròn lớn nhất trong hai hình tròn của đề bài. Bài toán này có template hình để giải nên chỉ cần chép lại.
+ - Dùng ROW thì bạn sẽ có đầy đủ trải nghiệm của Android gốc, không bị chậm thông báo,mọi thứ sẽ trơn tru. Bù lại bạn có thể không update OTA được như bình thường, và có thể không xem được Netflix. Nếu bạn tò mò thì những điểm kĩ thuật này mình đều sẽ giải thích ở phần sau.
+- Dùng CN thì sẽ phải mất công xoá app rác, chỉnh ngôn ngữ, cài lại Play Services, kill app nhiều và chậm thông báo, lỗi phông, tiếng Trung xuất hiện random, và trải nghiệm rất nhiều sạn, nhất là với những người mới, không quen dùng.
 
-[kactl/content/geometry/CirclePolygonIntersection.h at main · kth-competitive-programming/kactl](https://github.com/kth-competitive-programming/kactl/blob/main/content/geometry/CirclePolygonIntersection.h)
+Khi bạn hỏi chuyện trên các diễn đàn như Telegram, XDA, sẽ thấy mọi người trên thế giới lại quen dùng CN hơn ROW, chắc cũng do thế giới dùng khác mình. Mọi người bảo là dùng CN có hiệu năng tốt hơn ROW, nhưng sau khi cài cả 2 con ROM này và sử dụng thì mình không thấy thế. Cả 2 hiệu năng đều ngang nhau trong cùng một settings.
 
-## Trường hợp 2: 2 tiếp tuyến
+Từ phiên bản 16 trở về trước thì CN và ROW dùng chung ZUI, là phiên bản skin Android của Lenovo cho dòng tablet, còn từ 17 trở đi, ROW vẫn dùng ZUI 17. còn CN người ta làm thành hẳn 1 hệ điều hành riêng biệt dựa trên Android, ZUXOS 1.1. 
 
-Ta tách phần diện tích được bao phủ bởi cơn bão thành các hình sau:
+- ZUI của Lenovo với bản ROW không có nhiều thứ thừa thãi của nhà sản xuất, thiết kế khá tối giản và tối ưu cho chơi game nên mình khá hài lòng. 
+- Còn bản ZUXOS hiện tại của CN mình dùng xong một thời gian thấy cứ ngáo ngáo, dù người ta hô hào rằng nó được tối ưu kinh lắm. 
 
+## Cổng sạc nhánh + sạc nhanh
 
+Một trong những điểm mới hay ho của dòng tablet gaming là có tính năng sạc nhánh (bypass charging), giống với laptop hiện nay. Bạn cắm điện vào cổng sạc này và điện sẽ đi thẳng vào linh kiện, bỏ qua pin nên không làm chai hay nóng pin, và sẽ ổn định cho bạn chơi game nặng. 
 
-Trong hình trên, ta đã kẻ 2 tiếp tuyến của hai đường tròn tâm A và B. Đáp án sẽ là tổng diện tích phần giao của hòn đảo với hình thang CDEF và hai hình viên phân còn lại được tạo bởi CF và cung lớn CF, DE và cung nhỏ DE.
-### Bài toán 1: Tính diện tích giao của hình thang với đa giác
+Cổng sạc nhánh này cũng có thể dùng để xuất hình thông qua Type-C Display Port, bạn có thể dùng để kết nối và chiếu slide.
 
-Với bài toán này ta có thể sử dụng thuật toán Sutherland-Hodgman, sử dụng hình thang CDEF để cắt đa giác ban đầu. Các bạn có thể hỏi ChatGPT để sinh cài đặt cho thuật toán này.
-### Bài toán 2: Tính diện tích giao của hình thang với hai hình viên phân
+Khi chơi game max settings để không bị nóng pin và nóng máy thì nhất định phải cắm sạc nhánh, nếu không pin có thể sẽ bị quá tải dẫn đến cầm máy toát cả mồ hôi tay (nếu bạn không lắp tản nhiệt hoặc lắp folio case đi kèm cho máy).
 
-(WIP)
+Máy có chế độ sạc bảo vệ pin, bạn có thể chỉnh max sạc ở 60, 80 hoặc 100%. Thường máy chỉ mất khoảng nửa tiếng để bạn sạc từ 15% lên 80%, sau đó bạn có thể dùng liên tục trong vài tiếng sau đó.
 
-# [B: Bullet Train](https://oj.vnoi.info/problem/icpc24_regional_b)
+## Đa nhiệm và chức năng
 
-## Đề bài
+Một trong những tính năng chính hay ho của ZUI là Floating Windows, cho phép bạn đang dùng app này, có thể mở sidebar để mở một app khác trong cửa sổ nhỏ hơn để dùng cùng lúc. Cũng có thể chia đôi màn hình để vừa đọc vừa ghi chú, hoặc vừa đọc vừa viết. Với RAM expansion (+9GB RAM) thì gần như bạn sẽ không bị giật lag vì thiếu RAM khi đa nhiệm.
 
-Cho một đồ thị vô hướng $n$ đỉnh, khoảng cách giữa 2 đỉnh $i, j$ bất kì là $d(i, j)$. Chi phí của một đường đi nào đó (không nhất thiết là đường đi đơn) giữa 2 đầu mút $u, v$ là tổng $d$ của các cạnh liên tiếp đi qua.
+Qua đó mình nhận ra rằng, có những con game chơi trên Y700 vẫn bị giật lag, stuttering, đơn giản là vì nhà sản xuất tối ưu chúng trên Android (nhất là tablet) bị đần độn. Một ứng dụng chạy ngon không chỉ ở phần cứng ngon, mà bản thân lập trình viên cũng phải có não nữa.
 
-Có $m$ cặp đỉnh quan trọng. Mục tiêu là dựng ra một tập các đường đi **độc lập nhau**, mỗi đường không có quá $k$ đỉnh, sao cho với mỗi cặp đỉnh quan trọng đều có ít nhất một đường trong tập đi qua nó. In cách dựng có tổng chi phí bé nhất, cùng thứ tự các đỉnh của mỗi đường đi.
+Một trong những tính năng khác cũng khá hay là Smart Connect của Lenovo. Khi PC và Y700 trong cùng một mạng Wi-Fi thì bạn có thể thao tác trên Y700 qua PC.
 
-Giới hạn: $k \le n \le 19, m \le 15$.
+Đối với bản nội địa, bạn có thể gặp trường hợp không bắt được Wifi 5Ghz vì Trung Quốc không dùng dải tần này và chặn trên các thiết bị. Nếu gặp phải vấn đề này ở cục Wi-Fi nhà bạn, thì ở phần 2 của bài viết mình có cách sửa.
 
-## Lời giải
+## Phụ kiện
 
-Bài toán này là ghép cơ học của 3 bài toán DP bitmask, và cả 3 bài đều phải lưu truy vết. Truy vết đơn giản là xác định những thứ cần phải lưu để bạn biết là phương án tối ưu đã được dựng như thế nào khi tính DP, và code thì cũng na ná nhau.
+![500x500](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718232007.png)
 
-1. Tính chi phí nhỏ nhất `TSP[S][v]` để đi qua toàn bộ các đỉnh biểu diễn bởi bitmask `S` và kết thúc tại đỉnh `v` thuộc `S`. Đây là bài toán TSP truyền thống với độ phức tạp $O(n^2 \times 2^n)$.
-2. DP SOS các cặp đỉnh quan trọng. Với mỗi mask cặp `pm` thoả điều kiện không có quá $k$ đỉnh, ta cần tính **một** đường đi có chi phí ít nhất mà phủ hết được các cặp trong `pm`. Gọi giá trị này là `min_cost[pm]`. Phần này tối ưu nhất là cài được trong $O(n \times 2^n)$.
-3. Sau khi tính được hết `min_cost`, ta sẽ tính được `dp_cover[pm]` là chi phí ít nhất để xây một số tuyến đường phủ qua tất cá các cặp trong `pm`. Độ phức tạp có thể là $O(m \times 2^m)$ sử dụng SOS hoặc $O(3^m)$ bằng duyệt submask cũng chấp nhận được.
+Bao da khá hữu ích và đa năng, bạn có thể tháo dời phần da, kê nghiêng để xem phim / làm việc, đóng mở máy, và giúp không bị nóng khi bạn cầm chơi game nặng. Nên mua.
 
-Lưu ý rằng, một đường đi không nhất thiết chỉ đi qua **chính xác** các đỉnh quan trọng, mà có thể thêm các đỉnh khác làm trung chuyển để giảm tổng chi phí. Nên ở bài toán 2, với mỗi `pm`, ta có tập đỉnh bắt buộc `base` là hợp các đỉnh quan trọng `u[i], v[i]`. Sau đó, với những đỉnh phụ trợ còn lại, ta phải xét tiếp mọi tập con `extra` có thể thêm vào `base` sao cho cuối cùng `|base| + |extra| <= k`. Khi đó ta có `min_cost[pm] = min TSP[S][v]` với `S = base ∪ extra, |S| <= k` và `v` thuộc `S`. Sau đó tính `dp_cover` bằng kĩ thuật DP SOS: `dp_cover[pm] = min(dp_cover[pm \ sub] + min_cost[sub]`. Cuối cùng là truy vết từng đường đi một bằng thông tin truy vết của cả 3 bài toán ở trên.
+Bút thì cần cân nhắc nhu cầu trước. Dùng khá tốt và ổn định, dù trải nghiệm chung của việc dùng stylus trên máy dán cường lực là cứ trơn tuồn tuột, không có ma sát như viết giấy thật. Mà dán paperlike nhám để viết thì nó khiến màn chơi game không còn đẹp như trước, thà rằng bạn mua iPad và Apple Pen còn hơn. Bút có cảm ứng lực khá tốt, nhưng phần mềm để viết hỗ trợ cảm ứng lực thì chưa có ứng dụng nào thực sự ngon. Có Touchnote của bọn Tàu có hỗ trợ nhưng mà ứng dụng của Tàu phần lớn design thấy cấn cấn, không được elegant.
 
-Trong kì thi, anh Thuận team mình đã xử đẹp bài này với 1 đấm. 
+# Vọc vạch
 
-# [C: Classroom Carnival Chaos](https://oj.vnoi.info/problem/icpc24_regional_c)
+Với những bạn chỉ muốn review thuần, thì đọc phần ở trên là đủ rồi. Còn nếu bạn sẵn sàng down the rabbit hole để khám phá, vọc vạch, hacking, tự sửa máy khi gặp vấn đề, không ngại va chạm,… thì đây là phần dành cho bạn.
 
-## Đề bài
+Trước khi đọc phần này, bạn hãy có hiểu biết trước về các khái niệm nền tảng khi làm Android tweaking: `adb`, `fastboot`, QFIL, flash, root, unlock bootloader,… vì mình sẽ không nhắc lại những cái cơ bản.
 
-Có $n$ lớp, mỗi lớp có $m$ học sinh phân biệt xếp thành đội hình $n \times m$. Đếm số cấu hình mà không có 2 học sinh cùng lớp đứng cùng cột. Giải $T$ test.
+Phần này sẽ hướng dẫn các bạn cách để:
 
-Giới hạn: $T \le 10^5, 1 \le n, m \le 10^7$.
+1. Unlock bootloader trên Y700 Gen 3.
+2. Root máy, ẩn root và sửa Play Integrity (để dùng được mọi app).
+3. Sửa các vấn đề của máy: không xem được Netflix, mất Wi-Fi 5GHz.
+4. Cài ReVanced cho một số ứng dụng quen thuộc (YouTube, Spotify,…).
 
-## Lời giải
+Những phần này chủ yếu tóm tắt hiểu biết mình đã có qua XDA, Telegram và của các hảo thủ dưới đây:
 
-Nếu chỉ xét lớp, thì số cách xếp thoả mãn không có 2 lớp chung cột là $(n!)^m$. Với mỗi cách xếp trong đó, từng mỗi lớp trong $n$ lớp ta có $m!$ cách điền thứ tự học sinh nên sẽ sinh ra $(m!)^n$ cấu hình thoả mãn đề bài. Do đó đáp số của bài toán cho mỗi test là $(n!) ^ m \times (m!)^n$. 
+1. [Unlock Bootloader của Y700](http://www.romleyuan.com/lec/read?id=1402)
+2. [Cấu hình bảo mật mã khu vực của Y700](https://xdaforums.com/t/lenovo-legion-tab-y700-will-never-be-region-unlockable-unless-you-are-insane.4689007/)
+3. [Cách flash ROM quốc tế cho Y700 2023 (Gen 2)](https://xdaforums.com/t/y700-2023-gen_2-regional-rom-flashing-guide.4685115/)
+4. [Cách flash ROM quốc tế cho Y700 2025 (Gen 3)](https://xdaforums.com/t/lenovo-y700-gen-3-cn-rom-to-row-rom-guide.4744907/)
+5. [Trang của mấy bạn Nhật về Y700 Gen 2 và Gen 3](https://sites.google.com/view/y700/%E3%83%9B%E3%83%BC%E3%83%A0)
+6. [Note của limzel89 về Y700 Gen 2 và Gen 3, cực hay](https://note.com/limzei89)
+7. [Root máy bằng phương pháp GKI sử dụng KernelSU và WildKernel](https://www.reddit.com/r/Magisk/comments/1i7sowe/tutorial_susfs_best_root_hiding_method_currently/)
 
-Ta tính trước giai thừa đến giới hạn của đề và mỗi test ta có thể tính kết quả trong $O(\log n + \log m)$, nên độ phức tạp cuối cùng là $O(\max n + T (\log n + \log m))$.
+## Cấu hình bảo mật
 
-# [D: Distinguished Permutation](https://oj.vnoi.info/problem/icpc24_regional_d)
+Hiện với Y700 Lenovo có 3 dòng chính (tương ứng với 3 bản ROM) bán ra thị trường: Nội địa (CN), Nhật (NEC) và Quốc tế (ROW). Y700 có cơ chế khoá cứng mã khu vực kể trên vào máy. 
 
-## Đề bài
+1. Nếu trên máy của bạn cài ROM với phiên bản từ 15 trở đi, thì mã khu vực của ROM sẽ được bootloader ghi vào phân vùng RPMB với khả năng chống ghi đè rất mạnh, trù khi bạn liều lĩnh ngồi hàn thiết và reset phần cứng – điều này sẽ dẫn đến mất bảo hành vĩnh viễn. Đây là lý do khi bạn mua máy nội địa rồi thợ bán up ROM, bạn sẽ được nhắc không được bấm cập nhật OTA, đơn giản là khi cập nhật ROM sẽ khiến hai mã khu vực của phần cứng và phần mềm khác nhau dẫn đến bootloop. 
+2. Tiếp theo, để mở khoá Bootloader thì bạn phải đăng nhập tài khoản Lenovo và được phê duyệt thiết bị. Mỗi tài khoản chỉ được unlock 3 thiết bị trong 12 tháng, và bạn phải thao tác khá rối rắm. Lenovo cũng phải thả cho bạn unlock thì bạn mới unlock được. Thường phải mất 6 tháng – 1 năm hoặc không bao giờ, tuỳ dòng thì nhà phát triển mới cho bạn biết là unlock kiểu gì được.
 
-Một hoán vị đúng là một dãy chứa đủ $k$ số từ $1$ đến $k$ theo thứ tự bất kì. Với một hoán vị $P$ từ $1$ đến $N$, gọi $F(P)$ là số đoạn con của $P$ mà cũng là hoán vị đúng. $P$ là hoán vị đặc biệt nếu nó có $F(P)$ lớn nhất và có thể có nhiều hoán vị như vậy.
+Nếu không unlock được bootloader thì mọi thứ chấm dứt từ đây. Lenovo làm điều này là để giảm tình trạng buôn máy xách tay từ thị trường nội địa sang thị trường khác với giá rẻ hơn, khi mà giá của 2 dòng máy nội địa Trung và quốc tế chênh nhau cũng khoảng 3-4 triệu. Ít nhất là giờ Y700 Gen 3 trở về trước Lenovo đã thả cho unlock rồi. Còn Gen 4 mới ra thì chịu khó dùng ROM ZUXOS cho đến khi có ROM quốc tế và được mở bootloader.
 
-Cho $T$ test, mỗi test gồm 2 số $N, K$. Dựng hoán vị đặc biệt có $N$ phần tử và có thứ tự từ điển thứ $K$ trong tập các hoán vị đặc biệt.
+Thế nên nhìn chung mọi người chọn mua Y700 thì dùng Gen 3 là hợp lý nhất rồi.
 
-Giới hạn: $T \le 10^5, 1 \le \sum N \le 10^5, 1 \le K \le 10^{18}$.
+## Về root máy và ẩn root
 
-## Lời giải
+Hiện giờ có 2 phương pháp chính để root máy, là Systemless và Kernel. Tiêu biểu cho phương pháp Systemless là Magisk và tiêu biểu cho phương pháp Kernel là KernelSU. Việc root máy sẽ cho bạn thêm quyền trên thiết bị để vọc vạch và sửa lỗi, nhưng cũng sẽ đánh đổi về bảo mật khi bạn phải tin tưởng vào root module can thiệp sâu vào thiết bị.
 
-Để đơn giản tính toán ta coi thứ tự từ điển được đánh số từ $0$.
+1. Systemless: Đây là phương pháp phổ biến, không đòi hỏi can thiệp quá sâu, mà chỉ can thiệp vào phân vùng `init_boot` của ROM. Dễ thực hiện, cài nhanh và chạy ổn, tuy nhiên dễ bị phát hiện.
+2. Kernel: Bản thân phương pháp này cũng chia thành hai cách nhỏ hơn là GKI (Generic Kernel Image) và LKM (Loadable Kernel Module), đều được hỗ trợ bởi KernelSU. Đây là phương pháp can thiệp vào kernel Linux trong file `boot.img` của Android, cho hiệu quả tốt hơn, mạnh hơn và khó phát hiện hơn.
+	- LKM là phương pháp patch module vào file `boot.img`, bạn vẫn dùng kernel gốc của ROM.
+	- GKI là phương pháp thay hẳn một kernel đã cài cắm module để root vào từ bên ngoài vào file `boot.img` rồi flash vào máy.
 
-Hiển nhiên ta có $\max F(P) = N$. Ta có thể dựng hoán vị thoả mãn bằng quy nạp. 
+Một số ứng dụng có thể không hoạt động khi thiết bị đã được root hoặc unlock bootloader vì lý do bảo mật (app ngân hàng, trò chơi,…). Nên để dùng được chúng bạn phải khiến cho nó nghĩ rằng máy bạn vẫn còn nguyên chưa bị động vào. Đây cũng là một bài toán rất thú vị.
 
-Giả sử ta đã dựng được hoán vị $P$ đặc biệt có $k$ phần tử, thì bằng việc đặt số $k + 1$ nằm đầu hoặc đuôi của $P$ thì ta sẽ có hoán vị đặc biệt $k + 1$ phần tử. Theo đó ta cũng chứng minh được số hoán vị đặc biệt có $N$ phần tử là $2^{N - 1}$, vì với việc cố định số $1$ trước, $N - 1$ phần tử còn lại có $2$ cách điền, hoặc đầu hoặc đuôi.
+## Vào việc
 
-Khi đã dựng được $k$ phần tử, có thể thấy nếu ta đặt tiếp $k + 1$ lên đầu thì sẽ làm tăng thứ tự từ điển của hoán vị thêm $2^{k - 1}$, còn nếu đặt tiếp $k + 1$ ở đuôi thì thứ tự từ điển không tăng. Từ đó ta có phương pháp giải sử dụng hàng đợi 2 đầu (deque):
+Phần này sẽ kể lại chi tiết những thứ mình đã làm. Hãy cân nhắc kĩ trước khi làm theo, sao lưu dữ liệu trước, vì các bước sau đây là rủi ro và can thiệp sâu vào thiết bị. Mình sẽ không chịu trách nhiệm cho mọi hỏng hóc, bootloop, brick,… có thể xảy ra khi các bạn làm theo.
 
-```cpp
-auto get_bit = [&](ll x, int pos) { return (x >> pos) & 1; };
-int pivot = min(n, 61);
-for (int i = 2; i <= pivot; ++i) {
-	if (get_bit(k, i - 2) == 1) p.push_front(i);
-	else p.push_back(i);
-}
-for (int i = pivot + 1; i <= n; ++i) {
-	p.push_back(i);
-}
-for (auto i : p) cout << i << ' ';
+Tất cả các bước kết nối PC với Y700 đều phải sử dụng cổng sạc nhánh, và PC phải hỗ trợ USB 2.0 Type-C để có thể detect được fastboot và EDL, do QFIL là tool đã khá cũ và gần như 100% sẽ gặp vấn đề khi sử dụng USB 3.2.
+
+Phiên bản của ROM quốc tế là ZUI 17.0.10.139. Các công cụ sử dụng được lưu trong repo GitHub của mình.
+
+### Unlock Bootloader
+
+Có 1 file `sn.img` mẫu mà Lenovo cung cấp ở link này: http://cdn.zui.lenovomm.com/developer/tabletboot/12345678/sn.img. Đây là file key để unlock bootloader ứng với Serial Number 12345678.
+
+Điều đặc biệt là trong file `sn.img` này có một đoạn lưu Serial Number, chúng ta chỉ việc sửa mã hex thành Serial Number của chúng ta là dùng được. Như ở dưới, hãy sửa 8 chữ số thành Serial Number của máy bạn.
+
+![Pasted image 20250719003634.png](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250719003634.png)
+
+Sau đó, nhấn 7 lần số phiên bản để lấy Developer Options, bật OEM Unlocking và USB Debugging rồi chạy các lệnh sau để vào fastboot và mở khoá bootloader.
+
+```
+adb reboot bootloader
+fastboot flash unlock sn.img
+fastboot oem device-info
 ```
 
-Độ phức tạp toàn bài là $O(\sum N + T \log K)$.
+Khởi động lại máy, làm theo hướng dẫn trên màn hình để hoàn tất. Từ giờ chúng ta có khá nhiều thứ có thể làm được.
 
-# [E: Easy Game](https://oj.vnoi.info/problem/icpc24_regional_e)
+### Cài ROM quốc tế vào máy đã khoá khu vực CN
 
-Đây là một bài game rất khó và không có ai giải được trọn vẹn trong kì thi. Page Code cùng RR đã đăng lời giải của bài này khá chi tiết rồi nên mình sẽ không viết lại nữa.
+#### Sửa lại mã khu vực của ROM quốc tế
 
-https://www.facebook.com/share/p/155pjgMFUTd/
+Như đã nói ở trên, việc flash ROM quốc tế vào máy nội địa sẽ gây ra bootloop, nên việc đầu tiên cần làm là sửa lại mã khu vực của ROM. Nó được lưu trong file `vendor_boot.img` và sẽ được kiểm tra sao cho khớp với mã khu vực của phần cứng. Chúng ta sẽ sửa file này, sao cho mã khu vực của nó là CN. 
 
-# [F: FizzBuzz](https://oj.vnoi.info/problem/icpc24_regional_f)
+Đầu tiên, tải ROM quốc tế từ [lolinet mirrors](https://mirrors.lolinet.com/firmware/lenowow/2024/Y700_2025/TB321FU/) và chạy đoạn code Python dưới đây trên file `vendor_boot.img` trong thư mục `image`. Đoạn code này sẽ tạo một file `vendor_boot` mới, nếu `vendor_boot.img` gốc có dấu là IPRC (của ROM CN) thì sẽ chuyển sang IROW của ROM quốc tế và ngược lại. Hiện thì code này sẽ hoạt động với mọi phiên bản ROM, ra ROM mới thì cứ patch để update.
 
-## Đề bài
+```python
+import os,sys
+# os.chdir(os.path.dirname(os.path.abspath(__file__)))
+args = sys.argv
+with open(f'{args[1]}','rb') as f:
+    w_f=f.read()
+    w_row=b"\x49\x52\x4F\x57" # IPRC
+    w_prc=b"\x49\x50\x52\x43" # IROW
 
-Cho $N$ và một xâu $S$ có thể nhận một trong các giá trị: $N$, `fizz`, `buzz` hoặc `fizzbuzz`. Tìm 2 số $a, b$ thoả mãn $1 \le a < b \le 10^9$ sao cho bài toán dãy FizzBuzz với đầu vào là $a, b$ có phần tử thứ $N$ là đúng giá trị của xâu $S$. Nếu không có thì in ra `-1 -1`.
+    w_kekka=w_f.find(w_row)
+    if w_kekka!=-1:
+        print('change row -> prc')
+        out=w_f.replace(w_row,w_prc)
+        out_name='vendor_boot_prc.img'
+    else:
+        w_kekka=w_f.find(w_prc)
+        if w_kekka!=-1:
+            out=w_f.replace(w_prc,w_row)
+            print('change prc -> row')
+            out_name='vendor_boot_row.img'
+        else:
+            print('Neither "ROW" nor "PRC" found')
+            exit()
 
-## Lời giải
-
-Giới hạn: $T \le 10^5, N \le 10^9$.
-
-Bài rất đơn giản, thuần xét trường hợp và cũng dễ câu penalty của các đội. Sau đây mình xin trình bày cách xét trường hợp đơn giản nhất:
-
-```cpp
-if (s[0] != 'f' && s[0] != 'b') {  // s is number
-	if (n == 1)
-	  cout << 2 << ' ' << 3 << '\n';
-	else if (n == int(1e9))
-	  cout << int(1e9) - 2 << ' ' << int(1e9) - 1 << '\n';
-	else if (n == int(1e9 - 1)) {
-	  cout << int(1e9) - 2 << ' ' << int(1e9) << '\n';
-	} else {
-	  cout << n + 1 << ' ' << n + 2 << '\n';
-	}
-} else {
-	if (s == "fizz") {
-		if (n == (int)1e9) cout << 2 << ' ' << 3 << '\n';
-		else cout << n << ' ' << n + 1 << '\n';
-	} else if (s == "buzz") {
-		if (n <= 2) cout << -1 << ' ' << -1 << '\n';
-		else cout << n - 1 << ' ' << n << '\n';
-	} else {
-		if (n == 1) cout << -1 << ' ' << -1 << '\n';
-		else cout << 1 << ' ' << n << '\n';
-	}
-}
+with open(f'{out_name}','wb') as f:
+    f.write(out)
 ```
 
-# [G: Gid-osh](https://oj.vnoi.info/problem/icpc24_regional_g)
+Đây là file chúng ta cần patch:
 
-## Đề bài
+![Pasted image 20250718200225.png](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718200225.png)
 
-Cho một mảng $a$ gồm $N$ số. Bỏ đi một số trong dãy sao cho $\max - \min$ của dãy là nhỏ nhất.
-## Lời giải
+#### Sửa file XML của ROM
 
-Với $N = 2$ thì đáp án là $0$. Còn lại, sắp xếp dãy rồi in ra $\min(a_N - a_2, a_{N - 1} - a_1)$.
+#### EDL và flash ROM bằng QFIL
 
-# [H: Hash-shashin](https://oj.vnoi.info/problem/icpc24_regional_h)
+Trước khi đưa máy về EDL mode, PC của bạn phải cài thêm driver QDLoader 9008 của Qualcomm để có thể nhận kết nối từ máy đang ở EDL. Sau đó, để đưa Y700 vào trạng thái EDL, bạn có những cách sau:
 
-## Đề bài
+1. `adb reboot edl`
+2. Kết nối Y700 với PC và khởi động lại. Luôn giữ phím VolUp (+) cho đến khi màn hình đen là vào EDL.
+3. Tắt Y700 rồi kết nối với PC. Giữ phím VolUp (+) cho đến khi thấy màn hình có dấu sạc pin là vào EDL.
 
-A muốn gửi B một thông điệp bí mật, là một xâu nhị phân $s$ độ dài $n$ bằng cách sau:
+Sử dụng Lenovo RSA để flash ROM như thế này, theo một số nguồn mình đã đọc, có thể gây lỗi và brick máy vì cấu hình XML của ROM không đúng. Dưới đây là cách sửa và flash ROM bằng QFIL:
 
-1. A chọn trước modulo $m \ge 3$ (không nhất thiết là số nguyên tố).
-2. A tính mảng hash của xâu $s$: `hash[0] = 0, hash[i] = (2 * hash[i - 1] + s[i]) % m`
-3. Từ mảng `hash` ở trên, A dựng xâu `key` có các kí tự `<`, `=`, `>` với ý nghĩa: `key[i] = "<"` nếu tương ứng `hash[i - 1] < hash[i]` và tương tự. Xâu `key` này tính chỉ số từ 1.
+**Bước 1:** Chỉnh FireHose Download Configuration giống hệt như dưới đây:
 
-B chỉ nhận được $n, m$, xâu `key` và không biết gì về `s`. Mục tiêu là dựng lại những kí tự chắc chắn của `s` thành xâu `ans`. Hay nói cách khác, với tập $S$ gồm tất cả $s$ thoả mãn `key`, nếu `s[i] = "0"` với mọi `i` thì  `ans[i] = "0"`, tương tự với `s[i] = "1"`. Nếu không như vậy thì `ans[i] = "?"`. Nếu xâu `ans` toàn là `"?"` thì in ra `impossible`.
+![Pasted image 20250718233806.png](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718233806.png)
 
-Giới hạn: $T \le 10^4, n \le 2 \times 10^5, 3 \le m \le 10^9$.
+**Bước 2:** Decrypt toàn bộ file .x thành .xml trong thư mục `image`
 
-## Lời giải
 
-WIP
+### Root máy
 
-# [I: Inversland](https://oj.vnoi.info/problem/icpc24_regional_i)
+Hướng dẫn này sử dụng KernelSU-Next, một phiên bản fork của KernelSU được update thường xuyên hơn. Kết hợp cùng phương pháp GKI và SUSFS thì đây là phương pháp root máy cho trải nghiệm và ẩn root có thể nói là đã tối ưu cận trên. 
 
-## Đề bài
+#### Cài đặt KernelSU bằng phương pháp GKI và SUSFS
 
-Bạn có $N$ đồng xu, đồng xu thứ $i$ có mệnh giá là $1 / p_i$. Các mẫu số ở đây đều là các số nguyên tố phân biệt: $p_1, \dots, p_n$.
+Cài KernelSU-Next Manager qua GitHub trước: [Link GitHub](https://github.com/KernelSU-Next/KernelSU-Next)
 
-Đếm số giá trị có thể giao dịch bởi các đồng xu ở trên mà người bán **bắt buộc phải trả lại tiền thừa** theo modulo $998244353$. Nếu có vô số giá trị như vậy thì in ra Infinity.
+Đầu tiên, bạn phải biết phiên bản kernel gốc máy đang dùng là gì, điều này có thể xem trong phần phiên bản Android của cài đặt thiết bị. Với mình, thì phiên bản kernel là `6.1.112`.
 
-Giới hạn: $N \le 2 \times 10^5, p_i \le 998244353$.
+Tiếp theo, bạn phải biết kernel và định dạng của thiết bị đang dùng, bạn có thể thực hiện điều này bằng `magiskboot` để trích xuất thông tin của kernel trong file `boot.img`. Sau khi chạy `magiskboot unpack boot.img`, trong thư mục sẽ xuất hiện thêm file `kernel`, là kernel gốc được trích xuất từ `boot.img`. Mục tiêu là sẽ thay thế kernel trong file này bằng kernel đã patch.
 
-## Lời giải
+![Pasted image 20250718180934.png](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718180934.png)
 
-Bài toán này có thể giải bằng 2 cách, một cách sử dụng toán học thuần tuý và thường chỉ có ai học nhiều toán (IMO chẳng hạn, hoặc ChatGPT) mới biết, và một cách dùng FFT mà mình không biết nhưng bạn mình mò ra được. Mình sẽ trình bày cách toán.
+Phần cần quan tâm ở đây là `KERNEL_FMT` – định dạng kernel, ở đây thể hiện là `raw`, chứ không phải dạng nén như `lz4` hay `gz`. Chúng ta sẽ tìm kernel với định dạng `raw` đã patch trên [WildKernels](https://github.com/WildKernels/GKI_KernelSU_SUSFS?tab=readme-ov-file). Đối với phiên bản kernel `6.1.112`, có một số lựa chọn tải sau đây:
 
-Đặt $P = \prod p_i$. Ta sẽ giải bài toán ngược: tính số giá trị $\frac{x}{P}$ có thể trả bằng các mệnh giá ở trên mà không phải trả lại tiền thừa.
+![Pasted image 20250718181414.png](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718181414.png)
 
-Điều này tương đương với tìm số lượng $x$ sao cho tồn tại tổ hợp tuyến tính $x = \sum_{i = 1}^n c_i \frac{P}{p_i}$ mà các hệ số $c_1, \dots, c_n \ge 0$. Tập các số như vậy tạo thành một [semigroup số học](https://en.wikipedia.org/wiki/Numerical_semigroup) sinh bởi các $A_i = \frac{P}{p_i}$.
+Chúng ta sẽ không dùng file `boot.img` sẵn, mà sẽ repack kernel vào file `boot.img` gốc cho chắc ăn. Kernel raw là file không có đuôi định dạng nén, cụ thể là: `NEXT-12736-android14-6.1.112-2024-11-AnyKernel3.zip`.
 
-Trong lý thuyết **semigroup số học**, nếu $\gcd(A_1, A_2, ..., A_n) = 1$ (đúng với mọi test vì các $p_i$ nguyên tố khác nhau), thì:
+Giải nén file này, chúng ta có 1 file tên là `Image`, đây chính là kernel đã patch. Đổi tên file này thành `kernel` rồi ghi đè vào file `kernel` gốc ở trên (nhớ backup file gốc trước). Sau đó chạy `magiskboot repack boot.img`. Trong thư mục sẽ xuất hiện một file mới là `new-boot.img` . Flash file này vào phân vùng boot bằng `fastboot flash boot new-boot.img` là xong. Khi này máy của bạn đã cài được KernelSU GKI root và có SUSFS để thực hiện ẩn root!
+#### Bộ module chức năng + ẩn root + Widevine L1 Netflix
 
-1. Tập hợp này có hữu hạn số lượng **giá trị không biểu diễn được** (gọi là **gaps**).
-2. Số lượng gaps được gọi là **genus** $g$ và có công thức như sau: 
-$$
-g = \dfrac{F + 1}{2}, \quad F = (n - 1)P - \sum_{i=1}^n \frac{P}{p_i}
-$$
+Các module mà mình hiện sử dụng như sau:
 
-$F$ ở đây còn gọi là **số Frobenius** của semigroup.
+1. [sidex15/susfs4ksu-module](https://github.com/sidex15/susfs4ksu-module): Module quản lý và cho phép ẩn root hiệu quả theo phương pháp SUSFS
+2. [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases): Module huyền thoại để ẩn root, bổ trợ cho SUSFS.
+3. [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext): Một phiên bản độc lập của Zygisk, cho phép chạy các module Zygisk trên KernelSU, và ít để lại dấu vết hơn Zygisk bình thường.
+4. [JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed/releases): Module rất mạnh cho phép thay đổi hành vi của ứng dụng mà không phải sửa file APK. Đây là module rất hữu ích vì cho phép patch trực tiếp ReVanced không phụ thuộc phiên bản YouTube hay Google Photos, và cho phép dùng Lucky Patcher để hack ứng dụng nguyên gốc từ Google Play với tỉ lệ thành công cao hơn.
+5. [PlayIntegrityFix-NEXT](https://github.com/EricInacio01/PlayIntegrityFix-NEXT) và [TrickyStore](https://github.com/5ec1cff/TrickyStore): 2 module này sẽ cho phép đạt chứng nhận Device và Strong Integrity trên thiết bị đã root / mở khoá bootloader để dùng được các ứng dụng đòi hỏi các chứng nhận này.
+6. [chsbuffer/ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed): Dùng LSPosed để patch ReVanced trực tiếp vào stock YouTube, YTMusic, Spotify, Google Photos,… update thoải mái.
 
-Độ phức tạp cuối cùng là $O(N \log \max p_i)$.
+Sau khi cài đặt được tất cả module này, các trình bắt root, PlayIntegrity và key attestation sẽ đều không phát hiện được bất thường trên máy! Đồng thời, máy cũng sẽ có Widevine L1 để bạn xem được Netflix ở độ phân giải 4K, vì trạng thái unlock của bootloader, root, sự can thiệp vào thiết bị đều đã bị ẩn đi ở userspace.
+#### Mở khoá Wi-Fi 5GHz
 
-# [J: Jumbled Journey](https://oj.vnoi.info/problem/icpc24_regional_J)
+Nếu router nhà bạn dùng Wi-Fi 5GHz ở dải tần 5.6GHz trong các kênh như ở hình dưới, có thể thấy là các kênh Wi-Fi của Trung Quốc không hỗ trợ chuẩn này.
 
-## Đề bài
+![485x417](srccontentbloglenovo-legion-y700-gen-3assetspasted-image-20250718213848.png)
 
-Cho một đồ thị vô hướng $n$ đỉnh $m$ cạnh, mỗi cạnh có trọng số $w_i$. Ta cần giao hàng theo lịch trình là một hoán vị $p$ từ $1$ đến $n$. Do đó có $n - 1$ chặng giao hàng, chặng thứ $i$ là một đường đi đơn từ $p_i$ đến $p_{i + 1}$.
+Có vài cách sửa như sau, cách 1 và cách 2 không cần root:
 
-Chi phí của một chặng là trọng số cạnh lớn nhất xuất hiện trên chặng đó, và chi phí của lịch trình là tổng chi phí của $n - 1$ chặng. Chi phí của lịch trình *càng nhỏ thì càng tối ưu.*
+1. Chỉnh router sang các dải tần khác. Phải biết cách sử dụng router.
+2. Một số người dùng Developer Options để chỉnh tập các channel Wi-Fi và bắt được, nhưng với mình cách này không hoạt động.
+3. Sau khi root máy, ta có thể sửa Country Code thành US bằng module này. Máy sau đó sẽ bắt Wi-Fi 5GHz ở mọi dải tần như bình thường.
 
-Tìm ra một lịch trình, sao cho *chi phí tối ưu* của lịch trình là **lớn nhất có thể.**
-## Lời giải
+#### Kết quả
 
-Đây là bài mà mình đã đọc sai đề (do nhầm lẫn về minimax) trong kì thi và dẫn đến mất thời gian của cả đội, may mắn là sai lầm này đã không tước đi tấm vé dự APAC Championship của đội mình, khi mà kết quả cuối cùng, mình với đội đứng sau cùng trường kém nhau khoảng 200 penalty. 
 
-Anh Hạnh đã chữa bài này rất cụ thể trên kênh YouTube của anh, và có lẽ điều duy nhất mình nên làm lúc này là phát biểu lại đề bài cho chuẩn.
+![kernelsunext.jpg](srccontentbloglenovo-legion-y700-gen-3assetskernelsunext.jpg)
 
-[Lời giải: ICPC Asia Hanoi 2024 - bài J](https://www.youtube.com/watch?v=-sZk-RzIRdE&t=3466s)
+![rootdetect_and_attest.png](srccontentbloglenovo-legion-y700-gen-3assetsrootdetectandattest.png)
 
-# [K: Kangokutou Exodus](https://oj.vnoi.info/problem/icpc24_regional_k)
-## Đề bài
 
-Cho một mê cung gồm $n$ hành lang vuông góc liên tiếp nhau, mỗi hành lang có độ dài $l_i$. Trước khi bắt đầu bạn có thể chọn trước độ dài tốc biến $m$ nguyên để di chuyển từ điểm bắt đầu của hành lang $1$ đến điểm kết thúc của hành lang $n$.
+![playintegrity 1.jpg](srccontentbloglenovo-legion-y700-gen-3assetsplayintegrity-1.jpg)
 
-Ở mỗi thời điểm nguyên bạn sẽ tốc biến đúng $m$ đơn vị độ dài về phía trước trong đúng $1$ giây, nếu cú tốc biến này không chuẩn (khoảng cách từ điểm bạn tốc biến đến điểm cuối của hành lang hiện tại không đủ $m$ đơn vị) thì bạn sẽ tốc biến đến điểm cuối của hành lang và bị choáng $1$ giây, điều này áp dụng cả với hành lang cuối. Nếu không thì bạn có thể tốc biến tiếp ngay lập tức.
-
-Tính thời gian ngắn nhất có thể để ra khỏi mê cung khi chọn $m$ tối ưu.
-
-Giới hạn: $n \le 10^6, l_i \le 10^9$.
-
-## **Lời giải**
-
-Chúng ta bắt đầu với một số nhận xét như sau về đáp án tối ưu:
-
-1. Với $m$ cho trước thì ta có công thức tổng thời gian hoàn thành: $$f(m) = \sum_{i = 1}^{n} \left \lceil \frac{l_i}{m} \right \rceil + [l_i \bmod m \ne 0] $$
-2. Với mọi $m$ ta có $n \le f(m) \le 2n$. Dấu bằng thứ nhất xảy ra khi toàn bộ $l_i$ bằng nhau, còn dấu bằng thứ hai xảy ra khi ta cho $m > \max l_i$.
-3. $f(m)$ tối ưu khi $m$ là một trong các $l_i$.
-
-Nhận xét thứ 3 gợi ý rằng chúng ta cần duyệt qua tất cả các $l_i$ và tính nhanh được $f(l_i)$. Chúng ta chia mảng thành 3 phần:
-
-1. Phần mà $l_j < l_i$, khi này với mỗi $j$ chúng ta mất $2$ giây.
-2. Phần $l_j = l_i$, mỗi $j$ mất $1$ giây.
-3. Phần còn lại thì với mỗi $j$ tốn $\left \lceil \frac{l_j}{l_i} \right \rceil + [l_j \bmod l_i \ne 0]$ giây.
-
-Mấu chốt của bài toán là tính phần 3 đủ nhanh. Và thật ra, cách đủ nhanh lại rất đơn giản:
-
-```cpp
-int calc(int x,int m){
-    return (((x + m - 1) / m) + (x % m != 0));
-}
-
-for (int i = 0; i < n; ++i) {
-  int j = i;
-  for (j = i; j < n; ++j) {
-    if (a[j] > a[i]) {
-      break;
-    }
-  }
-  j--;
-  int curr = 2 * n - (j - i + 1);
-  for (int r = n - 1; r > j; r--) {
-    curr += (calc(a[r], a[i]) - 2);
-    if (curr >= ans) {
-      break;
-    }
-  }
-  ans = min(ans, curr);
-  i = j;
-}
-
-cout << ans;
-```
-
-Ý tưởng của thuật toán trên là đặt cận và tham lam. Ở một thời điểm bất kì, giá trị của `ans - curr` là ngưỡng quyết định xem `l[i]` hiện tại có tối ưu hơn không. Để có thể quyết định nhanh, ta tham lam lấy các giá trị lớn trước rồi cộng phần dư vào. Ta thấy là với $l_j$ rất lớn so với $l_i$ thì `curr` sẽ tăng nhanh làm vòng lặp kết thúc sớm, còn lại thì không có quá nhiều giá trị để duyệt.
-
-Độ phức tạp khi này là $O(nE)$ với $E$ là số bước duyệt trung bình với mỗi giá trị $i$. Trong khuôn khổ bài viết này ta thừa nhận $E = O(\log n)$, chứng minh xin dành cho độc giả như một bài tập.
-
-Độ phức tạp cuối cùng là $O(n \log n)$.
-
-> Trong kì thi, đội mình là một trong những đội hiếm hoi 1 đấm AC bài này, trong khi các đội mạnh khác như IBM Cloud, Azure của UET, hay đến cả gugugaga của NEU, AtCoder của HCMUS, đều phải mất nhiều sub. Đây là lợi thế cực lớn khi đội mình so penalty để kiếm suất dự APAC Championship, và đã cứu được sai lầm sảy chân ở bài J.
-
-# [L: Locomotive Lane Logistics](https://oj.vnoi.info/problem/icpc24_regional_l)
-
-## Đề bài
-
-Cho một đường ray có độ dài $s$ và $q$ truy vấn. Mỗi truy vấn có 1 trong 2 dạng:
-
-1. `+ l v`: thêm một tàu có độ dài `l` và vận tốc `v` vào lịch trình.
-2. `- l v`: xoá một tàu có độ dài `l` và vận tốc `v` khỏi lịch trình.
-
-Mỗi con tàu có phần mui và phần đuôi. Con tàu sẽ xuất phát với mui chạm vạch xuất phát và chỉ ra khỏi đường ray khi đuôi rời khỏi vạch kết thúc. Mỗi con tàu ta có thể chọn cho nó thời điểm xuất phát bất kì. 
-
-Tính tổng thời gian ít nhất để đưa toàn bộ tàu ra khỏi đường ray mà không xảy ra tai nạn. Tai nạn xảy ra khi mui của tàu đi sau đâm vào đuôi của tàu đi trước và tàu đi trước chưa ra khỏi đường ray.
-
-Giới hạn: $s \le 10^9, q \le 2 \times 10^5$.
-
-## Lời giải
-
-Qua cảm nhận, ta có thể rút ra 2 nhận xét đầu tiên về đáp án tối ưu:
-
-1. Nếu 2 tàu có cùng vận tốc, thì chúng có thể đi nối đuôi nhau như là 1 tàu, nên ta có thể giả sử tất cả `v` đều khác nhau.
-2. Thứ tự xuất phát của các con tàu sẽ phụ thuộc vào vận tốc, tàu chậm sẽ đi trước, rồi sau một khoảng thời gian tối ưu ta sẽ cho tàu nhanh hơn đuổi theo sau sao cho không xảy ra tai nạn. Dễ thấy là xếp như vậy tối ưu hơn vì ta lợi thêm về thời gian từ hiệu vận tốc của hai tàu đuổi nhau.
-
-Từ 2 nhận xét trên, bằng việc ngồi nháp toán và chứng minh công thức ta rút ra nhận xét quan trọng nhất của bài toán:
-
-3. Giả sử có 2 tàu `(l1, v1)` và `(l2, v2)` với `v1 < v2`. Để tối ưu nhất thì thời điểm đuôi tàu thứ nhất ra khỏi đường ray cũng chính là lúc mui của tàu thứ hai chạm vạch kết thúc. Nhận xét trên cho ta công thức tính giãn cách thời gian xuất phát tối ưu nhất của hai tàu:   
-$$
-\dfrac{s + l_1}{v_1} - \dfrac{s}{v_2} = \dfrac{s}{v_1} - \dfrac{s}{v_2} + \dfrac{l_1}{v_1}
-$$
-
-4. Áp dụng nhận xét trên cho $n$ tàu, thì tổng thời gian tối ưu là: 
-$$
-\dfrac{s}{v_1} - \dfrac{s}{v_n} + \sum_{i = 1}^{n - 1} \dfrac{l_i}{v_i} + \dfrac{s + l_n}{v_n} = \dfrac{s}{v_1} + \sum_{i = 1}^{n} \dfrac{l_i}{v_i}
-$$
-
-Do đó ta chỉ cần duy trì 2 giá trị sau qua các thao tác thêm và xoá tàu khỏi danh sách:
-1. Vận tốc $v_1$ của tàu chậm nhất, có thể dùng multiset, map hoặc priority queue.
-2. Tổng tỉ lệ chiều dài - vận tốc của các tàu.
-
-Độ phức tạp cho mỗi truy vấn là $O(\log q)$.
-
-# [M: Minotaur's Mysterious Maze](https://oj.vnoi.info/problem/icpc24_regional_m)
-
-## Đề bài
-
-Cho một mê cung gồm $n$ phòng giống hệt nhau, không sắp thứ tự, nối tiếp thành một vòng tròn, mỗi phòng đều có phòng liền trước và liền sau (có thể là cùng 1 phòng). Mỗi phòng có một cái đuốc ở trạng thái `0` (tắt) hoặc `1` (bật). Bạn không biết $n$ mà phải đoán nó.
-
-Đầu tiên, và mỗi khi bạn đến một phòng nào đó, máy chấm sẽ trả về trạng thái `0` hoặc `1` của đuốc trong phòng đó và sau đó bạn có thể chọn thực hiện 1 trong 3 loại truy vấn:
-
-1. `> v`: Đặt đuốc thành trạng thái `v` rồi đi tiếp sang phòng liền sau.
-2. `< v`: Đặt đuốc thành trạng thái `v` rồi đi tiếp sang phòng liền trước.
-3. `! n`: Trả lời số phòng là `n` và kết thúc. Truy vấn này không tính vào tổng số truy vấn.
-
-Số $n$ và trạng thái ban đầu của đuốc trong phòng là cố định, và chỉ có bạn mới thay đổi được trạng thái đuốc. Mục tiêu là đoán được $n$ trong tối đa $n + 55$ truy vấn.
-
-## Lời giải
-
-Kì Regional này thực sự là để đời với rất nhiều sự magic, khi mà bài này teammate của mình đã code không cần test tay và AC ngay sau đó trong sự bất ngờ của tất cả mọi người.
-
-Dễ thấy ta sẽ chỉ đi theo một chiều chứ không quay đầu, và phải tìm cách đánh dấu các phòng đã đi qua sao cho có cách để nhận diện lại nó khi ta quay trở lại. 55 truy vấn được thêm vào chính là để làm điều đó. Đơn giản thôi:
-
-1. Sinh ngẫu nhiên một số có 55 bit. Ta sẽ chỉnh trạng thái đuốc của 55 phòng đầu tiên đi qua bằng các bit của số này. Các phòng còn lại giữ nguyên.
-2. Ta lưu lại trạng thái của tất cả các phòng đã đến bằng một xâu nhị phân $n + 55$ bit. Khi ta thấy trạng thái của 55 bit đầu tiên lặp lại ở vị trí gần nhất nào đó, thì chúng ta đã xác định được $n$ với xác suất đúng $1 - 0.5^{55}$.
+![widevinel1.jpg](srccontentbloglenovo-legion-y700-gen-3assetswidevinel1.jpg)
 
 # Kết thúc
+
+Nhiêu nội dung ở trên chắc là đã đủ cho các bạn tiếp tục tìm hiểu và vận dụng để vọc con Y700 này. Với mình thì trải nghiệm khám phá điều mới, gợi lại những điều ngày xưa mình đã từng làm là rất vui vẻ và tuyệt vời.
+
+Cảm ơn các bạn đã đọc hết bài viết này. Hẹn gặp mọi người ở những bài viết sau.
 
