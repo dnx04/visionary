@@ -44,7 +44,7 @@ Trường hợp này xảy ra khi và chỉ khi một hình tròn hoàn toàn n�
 
 Ta tách phần diện tích được bao phủ bởi cơn bão thành các hình sau:
 
-![Pasted image 20251106231821.png](pasted-image-20251106231821.png)
+
 
 Trong hình trên, ta đã kẻ 2 tiếp tuyến của hai đường tròn tâm A và B. Đáp án sẽ là tổng diện tích phần giao của hòn đảo với hình thang CDEF và hai hình viên phân còn lại được tạo bởi CF và cung lớn CF, DE và cung nhỏ DE.
 ### Bài toán 1: Tính diện tích giao của hình thang với đa giác
