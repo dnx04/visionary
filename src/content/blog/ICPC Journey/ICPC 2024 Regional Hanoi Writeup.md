@@ -10,7 +10,7 @@ share: "true"
 icon: fontawesome-solid:code
 color: "#22c55e"
 subpath:
-image: icpc-2024-banner.png
+image: ./assets/icpc-2024-banner.png
 ---
 Đây là một trong những kì thi để đời của mình và anh em trong đội, khi đã vượt mọi kì vọng và được đến quốc đảo Singapore đánh APAC Championship tại NUS. Sau khi quá lâu vẫn không thấy BTC công khai lời giải tất cả các bài ở nguồn nào, mình quyết định viết 1 cái writeup, cũng là để tưởng nhớ và kỉ niệm chiến thắng hào hùng sau bao cố gắng. 
 
